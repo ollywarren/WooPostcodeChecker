@@ -1,0 +1,176 @@
+/**
+* Custom Geonet Menu Icon
+**/
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-geonet-logo:before {
+  content: "\61";
+}
+
+/**
+* Alerts
+**/
+.geonet-sms-alert-wrapper {
+    padding: 10px;
+    border-radius: 3px;
+}
+.geonet-sms-alert-hidden {
+    display: none;
+}
+
+.geoent-sms-alert-visible {
+    display: block;
+}
+
+.geonet-sms-alert-success {
+    background-color: rgb(98, 150, 98);
+    color: rgb(255, 255, 255);
+}
+
+.geonet-sms-alert-error {
+    background-color: rgb(163, 55, 55);
+    color: rgb(255, 255, 255);
+}
+
+/**
+* Toolbar Customisations
+**/
+
+.geonet-sms-credit-toolbar {
+    background-color: #48b6dc !important;
+    color: #ffffff;
+}
+
+.geonet-sms-credit-toolbar a:hover {
+    background-color: #378fac !important;
+    color: #ffffff !important;
+}
+
+.geonet-sms-credit-toolbar a:before {
+    font-family: "untitled-font-1" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\61" !important;
+    top: 3px;
+  }
+
+
+ .toplevel_page_geonet_sms_admin_page a:active {
+    background-color: #48b6dc !important;
+    color: #ffffff !important;
+ }
+
+  .toplevel_page_geonet_sms_admin_page.wp-menu-open > a.menu-top{
+    background: #48b6dc !important;
+    color: #fff;
+}
+
+
+
+ .toplevel_page_geonet_sms_admin_page > div.wp-menu-image::before{
+    font-family: "untitled-font-1" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\61" !important;
+ }
+
+ /**
+ * Custom User Multiselect on the Group SMS Send Tab
+ **/
+
+ #geonet_sms_user_multiselect {
+     min-width: 350px;
+     min-height: 200px;
+     overflow: scroll;
+     border: 1px solid #d1d0d0;
+     border-radius: 3px;
+ }
+
+
+ /**
+ * Custom Modal Styling
+ **/
+
+ .modal-loading-message {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+     font-weight: bold;
+     text-align: center;
+     color: silver;
+     margin: 20px auto 20px auto;
+ }
+
+ .geonet_sms_modal_box {
+     padding: 15px 10px 15px 10px;
+     background-color: #efefef;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+ }
+
+ .modal-internal-wrapper hr {
+     margin-top: 15px
+ }
+
+ .green {
+     color: green;
+ }
+
+.red {
+     color: red;
+ }
+
+ .modal-warning-message {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+ }

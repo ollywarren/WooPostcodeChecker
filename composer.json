@@ -1,0 +1,12 @@
+{
+    "name": "ollywarren/woocommerce-postcode-checker",
+    "description": "Postcode Delivery Checker Plugin for WooCommerce",
+    "authors": [
+        {
+            "name": "Olly Warren",
+            "email": "olly@ollywarren.com"
+        }
+    ],
+    "require": {
+    }
+}
