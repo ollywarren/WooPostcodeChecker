@@ -85,7 +85,7 @@ class PC {
 
             // Ok now we need to check our Postcode against the Available ones;
             foreach ($postcodes as $comparison) {
-                if($comparison->code == $sanitized) {
+                if( $comparison->code == $sanitized || strpos($sanitized, str_replace('*', '', $comparison->code), 0) !== false ) {
                     wp_send_json(['message' => 'success', 'canDeliver' => true], 200);
                 }
             }
